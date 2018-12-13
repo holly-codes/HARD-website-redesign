@@ -3543,7 +3543,6 @@ body.is-menu-visible #menu .inner {
       url(../../images/hero.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
     background-attachment: fixed;
     margin-bottom: -50%;
   }

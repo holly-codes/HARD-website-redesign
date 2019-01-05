@@ -189,8 +189,6 @@ html {
 
 body {
   background-color: #2e3141;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../../images/hero.jpg);
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center;
@@ -3546,11 +3544,29 @@ body.is-menu-visible #menu .inner {
   #banner {
     padding: 7em 0 8.25em 0;
     background-color: #2e3141;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url(../../images/hero.jpg);
     background-size: auto, cover;
     background-position: center, center;
     margin-bottom: -6.5em;
+  }
+
+  body.recruitment {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../../images/recruitment.jpg);
+  }
+
+  body.contactus {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../../images/contactus.jpg);
+  }
+
+  body.sponsors {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../../images/sponsors.jpg);
+  }
+
+  body.howtosponsor {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../../images/howtosponsor.jpg);
   }
 }
 
@@ -3651,11 +3667,29 @@ body.is-preload #banner p {
   #wrapper > header {
     padding: 9em 0 6.25em 0;
     background-color: #2e3141;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-      url(../../images/hero.jpg);
     background-size: auto, cover;
     background-position: center, 0% 30%;
     margin-bottom: -6.5em;
+  }
+
+  body.recruitment {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../../images/recruitment.jpg);
+  }
+
+  body.contactus {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../../images/contactus.jpg);
+  }
+
+  body.sponsors {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../../images/sponsors.jpg);
+  }
+
+  body.howtosponsor {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../../images/howtosponsor.jpg);
   }
 }
 
@@ -4077,6 +4111,10 @@ body.is-preload #banner p {
 }
 
 /* Footer */
+
+.footer-logo {
+  max-width: 95%;
+}
 
 #footer .inner {
   padding: 5em 0 3em 0;

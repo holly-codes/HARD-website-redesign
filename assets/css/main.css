@@ -296,7 +296,8 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus {
   border-bottom-color: transparent;
   color: #ffffff !important;
 }
@@ -341,7 +342,8 @@ a.special:not(.button):before {
   width: 2em;
 }
 
-a.special:not(.button):hover:before {
+a.special:not(.button):hover:before,
+a.special:not(.button):focus:before {
   background-color: rgba(255, 255, 255, 0.025);
 }
 
@@ -2832,7 +2834,8 @@ ul.pagination li > .page {
   text-align: center;
 }
 
-ul.pagination li > .page:hover {
+ul.pagination li > .page:hover,
+ul.pagination li > .page:focus {
   background-color: rgba(255, 255, 255, 0.025);
 }
 
@@ -2977,7 +2980,12 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
-.button:hover {
+.button:hover,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus,
+button:focus,
+.button:focus {
   background-color: rgba(255, 255, 255, 0.025);
 }
 
@@ -3011,7 +3019,12 @@ input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 button.primary:hover,
-.button.primary:hover {
+.button.primary:hover,
+input[type="submit"].primary:focus,
+input[type="reset"].primary:focus,
+input[type="button"].primary:focus,
+button.primary:focus,
+.button.primary:focus {
   background-color: #53639e;
 }
 
@@ -3234,7 +3247,8 @@ button:disabled,
   content: "\f0c9";
 }
 
-#header nav a[href="#menu"]:hover {
+#header nav a[href="#menu"]:hover,
+#header nav a[href="#menu"]:focus {
   background-color: rgba(255, 255, 255, 0.025);
 }
 
@@ -3276,6 +3290,7 @@ button:disabled,
   }
 
   #header nav a[href="#menu"]:hover,
+  #header nav a[href="#menu"]:focus,
   #header nav a[href="#menu"]:active {
     background-color: inherit;
   }
@@ -3411,8 +3426,37 @@ button:disabled,
   text-transform: uppercase;
 }
 
-#menu .links li a:hover {
+#menu .links li a:hover,
+#menu .links li a:focus {
   background: #45558d;
+}
+
+#menu .links li ul {
+  list-style: none;
+  margin-bottom: 0;
+  background: #45558d;
+}
+
+#menu .links .rosters::after {
+  content: "\f107";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0px 0px 0px 10px;
+  text-decoration: none;
+}
+
+#menu .links .rosters-expanded::after {
+  content: "\f106";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0px 0px 0px 10px;
+  text-decoration: none;
+}
+
+#menu .links li ul li a:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 736px) {

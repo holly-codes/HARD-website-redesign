@@ -209,6 +209,19 @@ body.sponsors {
     url(../../images/sponsors.jpg);
 }
 
+body.schedule {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../images/schedule-header.jpg);
+}
+body.bedrockers {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../images/bedrockers-roster-header.jpg);
+}
+body.wailers {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../images/wailers-roster-header.jpg);
+}
+
 body.howtosponsor {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../../images/howtosponsor.jpg);
@@ -3781,8 +3794,11 @@ body.is-preload #banner p {
   }
 }
 
-.full-height {
-  min-height: 100%;
+.bout-date {
+  background-color: #3d4051;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 .wrapper {

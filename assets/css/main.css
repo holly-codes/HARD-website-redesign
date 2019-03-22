@@ -3731,6 +3731,11 @@ body.is-preload #banner p {
       url(../../images/sponsors.jpg);
   }
 
+  body.schedule {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../../images/schedule.jpg);
+  }
+
   body.wailers {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url(../../images/wailers.jpg);
@@ -3774,6 +3779,10 @@ body.is-preload #banner p {
   #wrapper > header p {
     font-size: 0.8em;
   }
+}
+
+.full-height {
+  min-height: 100%;
 }
 
 .wrapper {

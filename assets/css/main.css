@@ -3794,6 +3794,13 @@ body.is-preload #banner p {
   }
 }
 
+.image-crop img {
+  display: block;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 75%, 0% 75%);
+  margin-bottom: -35%;
+  border-radius: 0px;
+}
+
 .bout-date {
   background-color: #3d4051;
   margin-top: 1rem;

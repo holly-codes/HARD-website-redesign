@@ -3794,10 +3794,16 @@ body.is-preload #banner p {
   }
 }
 
+.image-crop {
+  max-height: 60%;
+  overflow: hidden;
+}
+
 .image-crop img {
   display: block;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 75%, 0% 75%);
-  margin-bottom: -35%;
+  /*clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 75%, 0% 75%);
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 75%, 0% 75%);*/
+  margin-bottom: -40%;
   border-radius: 0px;
 }
 

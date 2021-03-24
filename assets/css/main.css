@@ -227,6 +227,11 @@ body.howtosponsor {
     url(../../images/howtosponsor.jpg);
 }
 
+body.howtodonate {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../images/donate.jpg);
+}
+
 body.is-preload *,
 body.is-preload *:before,
 body.is-preload *:after {

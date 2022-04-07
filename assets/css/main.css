@@ -3819,6 +3819,17 @@ body.is-preload #banner p {
   padding: 1rem;
 }
 
+.full-width-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.full-width-image-container > img {
+  width: 75%;
+}
+
 .wrapper {
   background-color: #2e3141;
   margin: 6.5em 0;
@@ -3881,6 +3892,10 @@ body.is-preload #banner p {
   padding: 3em 0 1em 0;
   margin: 0 auto;
   width: 55em;
+}
+
+.wrapper.schedule-wrapper::before {
+  margin-top: 0;
 }
 
 .wrapper.style2 {
